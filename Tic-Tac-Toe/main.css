@@ -1,0 +1,64 @@
+.board {
+    height: 420px;
+    width: 420px;
+    margin: auto;
+}
+
+.cell {
+    width: 140px;
+    height: 140px;
+    border: 4px solid grey;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    cursor:pointer;
+    float:left;
+    line-height: 140px;
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-weight: bold;
+    color: #66b3ff;
+    font-size: 70px;
+}
+
+.start {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 300%;
+    color: #ffb3b3;
+    cursor:pointer;   
+}
+
+.level {
+    width: 300px;
+    margin: auto;
+    color: #ffb3b3;
+    text-align: center;
+    font-size: 200%
+}
+
+#easy, #hard {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#status {
+    margin: auto;
+    color: blue;
+    text-align: center;
+    font-size: 200%
+}
+
+#result, #newstart {
+    margin: auto;
+    color: #ffb3b3;
+    text-align: center;
+    font-size: 200%
+}
+
+#newstart {
+    text-decoration: underline;
+    cursor: pointer;
+}
